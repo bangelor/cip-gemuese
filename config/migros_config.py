@@ -1,2 +1,2 @@
 # config/migros_config.py
-MIGROS_URL = 'https://www.migros.com/some-product-page'
+MIGROS_URL = 'https://www.migros.ch/de/category/fruchte-gemuse/gemuse'

@@ -7,13 +7,23 @@ class MigrosParser:
         self.soup = BeautifulSoup(raw_html, 'html.parser')
 
     def parse(self):
-        """Extract product names and prices from the Migros HTML page"""
+        """Extract product names and prices from the Migros vegetable section"""
         products = []
-        for product in self.soup.select('.product'):
-            name = product.select_one('.product-name').text
-            price = product.select_one('.product-price').text
-            products.append({
-                'name': clean_data(name),
-                'price': clean_data(price)
-            })
+
+        # Find all product cards in the HTML
+        for product in self.soup.find_all('article', class_='product-card'):
+            # Extract the product name
+            name_tag = product.find('span', {'data-cy': lambda x: x and 'product-name' in x})
+            # Extract the product price
+            price_tag = product.find('span', {'data-cy': lambda x: x and 'current-price' in x})
+
+            if name_tag and price_tag:
+                name = clean_data(name_tag.text)
+                price = clean_data(price_tag.text)
+                
+                products.append({
+                    'name': name,
+                    'price': price
+                })
+
         return products

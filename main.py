@@ -14,7 +14,7 @@ def scrape_migros_and_store():
 
     # Store the data in Azure Blob Storage
     azure_storage = AzureBlobStorage()
-    azure_storage.upload_data('migros_data.json', json_data)
+    azure_storage.upload_data(store_name= 'migros', data=json_data)
 
     print("Migros data scraped and stored in Azure Blob Storage.")
 

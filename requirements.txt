@@ -3,3 +3,4 @@ pandas
 beautifulsoup4
 requests
 azure.storage.blob
+webdriver_manager
