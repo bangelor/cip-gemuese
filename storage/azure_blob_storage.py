@@ -20,7 +20,7 @@ class AzureBlobStorage:
         # Get current date and time
         now = datetime.now()
         # Format as Year/Month/Day/HH:MM:ss
-        timestamp = now.strftime("%Y/%m/%d/%H%M%S")
+        timestamp = now.strftime("%Y/%m/%d/%Y-%m-%dT%H:%M:%S")
         # Return the timestamp part of the path
         return f"{timestamp}.json"
 
