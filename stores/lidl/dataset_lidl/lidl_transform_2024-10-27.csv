@@ -1,0 +1,162 @@
+Title;Review;Weight;Price_before_discount;Discount;Price;Date;Origin;Brand;Id;Url;Subcategory;Date_collecting_data;Swiss_Product;Bio;Word_count;Unit;clean_unit;calculated_price_per100g_perStück;Weight_unit;discount_start_date;discount_ende_date;discount_start_day;discount_ende_day;Discount_duration;Discount_exist
+Ebly Zartweizen;;pro 1kg |;7.49;;7.49;;unbekannt;Ebly;8998;https://sortiment.lidl.ch/de/ebly-zartweizen-0008998;Hülsenfrüchte;;unbekannt;no;2;1kg;1000g;0.75;g;;;;;;no
+Solomania Dörrbohnen;;pro 100g |;4.79;;4.79;;unbekannt;Solomania;5103950;https://sortiment.lidl.ch/de/solomania-doerrbohnen-5103950;Hülsenfrüchte;;unbekannt;no;2;100g;100g;4.79;g;;;;;;no
+Bio Quinoa tricolore;;pro 400g | 100g = 0.89 CHF;3.55;;3.55;;unbekannt;Crownfild;119437;https://sortiment.lidl.ch/de/bio-quinoa-tricolore-0119437;Hülsenfrüchte;;unbekannt;yes;3;400g;400g;0.89;g;;;;;;no
+Bio Hülsenfrüchte;1.0;pro 500g | 100g = 0.46 CHF;2.29;;2.29;;unbekannt;Golden Sun;119562;https://sortiment.lidl.ch/de/bio-huelsenfruechte-0119562;Hülsenfrüchte;;unbekannt;yes;2;500g;500g;0.46;g;;;;;;no
+Liebling der Apfelkönigin;6.0;pro 6Stk. | 1 Stk = 0.44 CHF;2.59;;2.59;;Schweiz;;80224;https://sortiment.lidl.ch/de/liebling-der-apfelkoenigin-0080224;Obst;;yes;no;3;6Stk.;6 Stücke;0.43;Stück;;;;;;no
+Zitronen 500g;37.0;pro 500g | 1Kg = 1.86 CHF;0.93;;0.93;;variabel;;80170;https://sortiment.lidl.ch/de/zitronen-500g-0080170;Obst;;no;no;2;500g;500g;0.19;g;;;;;;no
+Heidelbeeren 400g;59.0;pro 400g | 100g = 1.43 CHF;5.69;;5.69;;variabel;;80818;https://sortiment.lidl.ch/de/heidelbeeren-400g-0080818;Obst;;no;no;2;400g;400g;1.42;g;;;;;;no
+Bio Birnen 500g;;pro 500g | 1Kg = 5.98 CHF;2.99;;2.99;;Schweiz;BIO Organic;81580;https://sortiment.lidl.ch/de/bio-birnen-500g-0081580;Obst;;yes;yes;3;500g;500g;0.6;g;;;;;;no
+Trauben hell kernlos 700g;;pro 700g | 1Kg = 4.28 CHF;2.99;;2.99;;variabel;;80506;https://sortiment.lidl.ch/de/trauben-hell-kernlos-700g-0080506;Obst;;no;no;4;700g;700g;0.43;g;;;;;;no
+Äpfel rot 1,5kg;65.0;pro 1,5kg | 1Kg = 2.80 CHF;4.19;;4.19;;Schweiz;;80229;https://sortiment.lidl.ch/de/aepfel-rot-1-5kg-0080229;Obst;;yes;no;3;1,5kg;1500g;0.28;g;;;;;;no
+Bio Kiwi Gold 500g;5.0;pro 500g | 1Kg = 6.98 CHF;3.49;;3.49;;Italien;BIO Organic;81722;https://sortiment.lidl.ch/de/bio-kiwi-gold-500g-0081722;Obst;;no;yes;4;500g;500g;0.7;g;;;;;;no
+Äpfel rot;4.0;pro 1kg |;2.89;;2.89;;Schweiz;;80220;https://sortiment.lidl.ch/de/aepfel-rot-0080220;Obst;;yes;no;2;1kg;1000g;0.29;g;;;;;;no
+Orangen;3.0;pro 1kg |;1.99;;1.99;;Spanien;;80135;https://sortiment.lidl.ch/de/orangen-0080135;Obst;;no;no;1;1kg;1000g;0.2;g;;;;;;no
+Kaki 1kg;;pro 1kg |;2.49;;2.49;;Spanien;;80660;https://sortiment.lidl.ch/de/kaki-1kg-0080660;Obst;;no;no;2;1kg;1000g;0.25;g;;;;;;no
+Avocado ready to eat;49.0;pro Stück |;1.25;;1.25;;variabel;Rainforest Alliance;80616;https://sortiment.lidl.ch/de/avocado-ready-to-eat-0080616;Obst;;no;no;4;Stück;1 Stück;1.25;Stück;;;;;;no
+Mango;13.0;pro Stück |;1.95;;1.95;;Spanien;Rainforest Alliance;80711;https://sortiment.lidl.ch/de/mango-0080711;Obst;;no;no;1;Stück;1 Stück;1.95;Stück;;;;;;no
+Bio Avocado;144.0;pro Stück |;1.29;;1.29;;variabel;BIO Organic;81671;https://sortiment.lidl.ch/de/bio-avocado-0081671;Obst;;no;yes;2;Stück;1 Stück;1.29;Stück;;;;;;no
+Fairtrade Passionsfrucht;27.0;pro Stück |;0.49;;0.49;;Kolumbien;Fairglobe;80747;https://sortiment.lidl.ch/de/fairtrade-passionsfrucht-0080747;Obst;;no;no;2;Stück;1 Stück;0.49;Stück;;;;;;no
+Physalis 100g;8.0;pro 100g |;1.19;;1.19;;Kolumbien;;80735;https://sortiment.lidl.ch/de/physalis-100g-0080735;Obst;;no;no;2;100g;100g;1.19;g;;;;;;no
+Papaya;9.0;pro 1kg |;2.89;;2.89;;Spanien;;80725;https://sortiment.lidl.ch/de/papaya-0080725;Obst;;no;no;1;1kg;1000g;0.29;g;;;;;;no
+Kokosnuss;1.0;pro Stück |;0.99;;0.99;;variabel;;80696;https://sortiment.lidl.ch/de/kokosnuss-0080696;Obst;;no;no;1;Stück;1 Stück;0.99;Stück;;;;;;no
+Kiwi Gold 3 Stück;8.0;pro 3 Stück |;1.99;;1.99;;variabel;;80690;https://sortiment.lidl.ch/de/kiwi-gold-3-stueck-0080690;Obst;;no;no;4;3;3 Stücke;0.66;Stück;;;;;;no
+Kiwi;39.0;pro Stück |;0.59;;0.59;;Italien;;80676;https://sortiment.lidl.ch/de/kiwi-0080676;Obst;;no;no;1;Stück;1 Stück;0.59;Stück;;;;;;no
+Kaktusfeigen 500g;1.0;pro 500g | 1Kg = 2.70 CHF;1.35;;1.35;;Italien;;80666;https://sortiment.lidl.ch/de/kaktusfeigen-500g-0080666;Obst;;no;no;2;500g;500g;0.27;g;;;;;;no
+Kaki;;pro Stück |;0.69;;0.69;;Spanien;;80656;https://sortiment.lidl.ch/de/kaki-0080656;Obst;;no;no;1;Stück;1 Stück;0.69;Stück;;;;;;no
+Granatapfel;6.0;pro Stück |;1.05;;1.05;;variabel;;80646;https://sortiment.lidl.ch/de/granatapfel-0080646;Obst;;no;no;1;Stück;1 Stück;1.05;Stück;;;;;;no
+Avocado 700g;9.0;pro 700g | 1Kg = 3.56 CHF;2.49;;2.49;;variabel;Rainforest Alliance;80619;https://sortiment.lidl.ch/de/avocado-700g-0080619;Obst;;no;no;2;700g;700g;0.36;g;;;;;;no
+Ananas Extra sweet;15.0;pro Stück |;2.29;;2.29;;variabel;Rainforest Alliance;80611;https://sortiment.lidl.ch/de/ananas-extra-sweet-0080611;Obst;;no;no;3;Stück;1 Stück;2.29;Stück;;;;;;no
+Grapefruit;8.0;pro Stück |;0.79;;0.79;;variabel;;80041;https://sortiment.lidl.ch/de/grapefruit-0080041;Obst;;no;no;1;Stück;1 Stück;0.79;Stück;;;;;;no
+Clementinen;4.0;pro 1kg |;1.49;-34%;1.49;24.10. - 30.10.;variabel;;80085;https://sortiment.lidl.ch/de/clementinen-0080085;Obst;;no;no;1;1kg;1000g;0.15;g;2024-10-24;2024-10-30;Thursday;Wednesday;6 days;yes
+Bio Zitronen;42.0;pro Stück |;0.49;;0.49;;Spanien;BIO Organic;81536;https://sortiment.lidl.ch/de/bio-zitronen-0081536;Obst;;no;yes;2;Stück;1 Stück;0.49;Stück;;;;;;no
+Bio Orangen 1kg;4.0;pro 1kg |;3.79;;3.79;;variabel;BIO Organic;81532;https://sortiment.lidl.ch/de/bio-orangen-1kg-0081532;Obst;;no;yes;3;1kg;1000g;0.38;g;;;;;;no
+Fairtrade Limette;79.0;pro Stück |;0.49;;0.49;;Siehe Packung;Fairglobe;80179;https://sortiment.lidl.ch/de/fairtrade-limette-0080179;Obst;;no;no;2;Stück;1 Stück;0.49;Stück;;;;;;no
+Zitrone;33.0;pro Stück |;0.39;;0.39;;variabel;;80161;https://sortiment.lidl.ch/de/zitrone-0080161;Obst;;no;no;1;Stück;1 Stück;0.39;Stück;;;;;;no
+Orangen 2kg;3.0;pro 2kg | 1Kg = 1.50 CHF;2.99;;2.99;;variabel;;80142;https://sortiment.lidl.ch/de/orangen-2kg-0080142;Obst;;no;no;2;2kg;2000g;0.15;g;;;;;;no
+Orangen 1,5kg;1.0;pro 1.5kg | 1Kg = 1.50 CHF;2.25;;2.25;;variabel;;80141;https://sortiment.lidl.ch/de/orangen-1-5kg-0080141;Obst;;no;no;2;1.5kg;1500g;0.15;g;;;;;;no
+Clementinen 2,3kg;;pro 2,3kg | 1Kg = 1.74 CHF;3.99;;3.99;;Spanien;;80092;https://sortiment.lidl.ch/de/clementinen-2-3kg-0080092;Obst;;no;no;2;2,3kg;2300g;0.17;g;;;;;;no
+Clementinen 1kg;;pro 1kg |;1.79;;1.79;;Spanien;;80088;https://sortiment.lidl.ch/de/clementinen-1kg-0080088;Obst;;no;no;2;1kg;1000g;0.18;g;;;;;;no
+Honigpomelo;2.0;pro Stück |;2.99;;2.99;;variabel;;80056;https://sortiment.lidl.ch/de/honigpomelo-0080056;Obst;;no;no;1;Stück;1 Stück;2.99;Stück;;;;;;no
+Bio Heidelbeeren 125g;;pro 125g | 100g = 2.00 CHF;2.49;;2.49;;variabel;BIO Organic;81685;https://sortiment.lidl.ch/de/bio-heidelbeeren-125g-0081685;Obst;;no;yes;3;125g;125g;1.99;g;;;;;;no
+Himbeeren 250g;10.0;pro 250g | 100g = 1.60 CHF;3.99;;3.99;;Spanien;;80838;https://sortiment.lidl.ch/de/himbeeren-250g-0080838;Obst;;no;no;2;250g;250g;1.6;g;;;;;;no
+Heidelbeeren 250g;14.0;pro 250g | 100g = 1.52 CHF;3.79;;3.79;;variabel;;80823;https://sortiment.lidl.ch/de/heidelbeeren-250g-0080823;Obst;;no;no;2;250g;250g;1.52;g;;;;;;no
+Pflaumen 1kg;;pro 1kg |;2.69;;2.69;;variabel;;80417;https://sortiment.lidl.ch/de/pflaumen-1kg-0080417;Obst;;no;no;2;1kg;1000g;0.27;g;;;;;;no
+Bio Äpfel rot 500g;1.0;pro 500g | 1Kg = 5.70 CHF;2.85;;2.85;;Schweiz;BIO Organic;81560;https://sortiment.lidl.ch/de/bio-aepfel-rot-500g-0081560;Obst;;yes;yes;4;500g;500g;0.57;g;;;;;;no
+Nashi Birnen;7.0;pro Stück |;0.99;;0.99;;China;;80316;https://sortiment.lidl.ch/de/nashi-birnen-0080316;Obst;;no;no;2;Stück;1 Stück;0.99;Stück;;;;;;no
+Birnen in Schale;;pro 1kg |;2.99;;2.99;;Schweiz;;80285;https://sortiment.lidl.ch/de/birnen-in-schale-0080285;Obst;;yes;no;3;1kg;1000g;0.3;g;;;;;;no
+Birnen;12.0;pro 1kg |;3.29;;3.29;;variabel;;80275;https://sortiment.lidl.ch/de/birnen-0080275;Obst;;no;no;1;1kg;1000g;0.33;g;;;;;;no
+Äpfel rot 2,5kg;6.0;pro 2.5kg | 1Kg = 1.58 CHF;3.95;;3.95;;Schweiz;;80236;https://sortiment.lidl.ch/de/aepfel-rot-2-5kg-0080236;Obst;;yes;no;3;2.5kg;2500g;0.16;g;;;;;;no
+Äpfel Pink Lady 1kg;15.0;pro 1kg |;4.49;;4.49;;variabel;;80215;https://sortiment.lidl.ch/de/aepfel-pink-lady-1kg-0080215;Obst;;no;no;4;1kg;1000g;0.45;g;;;;;;no
+Äpfel grün;1.0;pro 1kg |;2.89;;2.89;;Schweiz;;80185;https://sortiment.lidl.ch/de/aepfel-gruen-0080185;Obst;;yes;no;2;1kg;1000g;0.29;g;;;;;;no
+Galiamelone;12.0;pro Stück |;2.59;;2.59;;variabel;Rainforest Alliance;80546;https://sortiment.lidl.ch/de/galiamelone-0080546;Obst;;no;no;1;Stück;1 Stück;2.59;Stück;;;;;;no
+BIO Trauben hell kernlos 500g;1.0;pro 500g | 1Kg = 5.58 CHF;2.79;;2.79;;Italien;BIO Organic;81651;https://sortiment.lidl.ch/de/bio-trauben-hell-kernlos-500g-0081651;Obst;;no;yes;5;500g;500g;0.56;g;;;;;;no
+Trauben hell;1.0;pro 1kg |;2.59;;2.59;;Italien;;80510;https://sortiment.lidl.ch/de/trauben-hell-0080510;Obst;;no;no;2;1kg;1000g;0.26;g;;;;;;no
+Trauben hell kernlos 500g;10.0;pro 500g | 1Kg = 4.10 CHF;2.05;;2.05;;variabel;;80505;https://sortiment.lidl.ch/de/trauben-hell-kernlos-500g-0080505;Obst;;no;no;4;500g;500g;0.41;g;;;;;;no
+Trauben rot;5.0;pro 1kg |;2.59;;2.59;;Italien;;80490;https://sortiment.lidl.ch/de/trauben-rot-0080490;Obst;;no;no;2;1kg;1000g;0.26;g;;;;;;no
+Trauben rot kernlos 500g;3.0;pro 500g | 1Kg = 4.10 CHF;2.05;;2.05;;variabel;;80485;https://sortiment.lidl.ch/de/trauben-rot-kernlos-500g-0080485;Obst;;no;no;4;500g;500g;0.41;g;;;;;;no
+Trauben Mix 500g;2.0;pro 500g | 1Kg = 4.58 CHF;2.29;;2.29;;Italien;;80475;https://sortiment.lidl.ch/de/trauben-mix-500g-0080475;Obst;;no;no;3;500g;500g;0.46;g;;;;;;no
+Fairtrade Bio Bananen;21.0;pro 1kg |;2.69;;2.69;;variabel;Fairglobe;81510;https://sortiment.lidl.ch/de/fairtrade-bio-bananen-0081510;Obst;;no;yes;3;1kg;1000g;0.27;g;;;;;;no
+Bananen;97.0;pro 1kg |  |;0.99;-23%;0.99;24.10. - 30.10.;variabel;Rainforest Alliance;80000;https://sortiment.lidl.ch/de/bananen-0080000;Obst;;no;no;1;1kg;1000g;0.1;g;2024-10-24;2024-10-30;Thursday;Wednesday;6 days;yes
+Maroni;3.0;pro 1kg |;7.9;;7.9;;Italien;;80915;https://sortiment.lidl.ch/de/maroni-0080915;Obst;;no;no;1;1kg;1000g;0.79;g;;;;;;no
+Ingwer;18.0;pro 1kg |;4.99;;4.99;;variabel;;82700;https://sortiment.lidl.ch/de/ingwer-0082700;Obst;;no;no;1;1kg;1000g;0.5;g;;;;;;no
+Zwiebeln rot;;pro 1kg |;1.89;;1.89;;Schweiz;Terra Natura;83345;https://sortiment.lidl.ch/de/zwiebeln-rot-0083345;Gemüse;;yes;no;2;1kg;1000g;0.19;g;;;;;;no
+Paprika hellgrün spitz, scharf;;pro 400g |;1.99;;1.99;;Marokko;;82577;https://sortiment.lidl.ch/de/paprika-hellgruen-spitz-scharf-0082577;Gemüse;;no;no;4;400g;400g;0.5;g;;;;;;no
+Kartoffeln festkochend 2.5 kg;;pro 2,5kg |;2.19;-24%;2.19;24.10. - 30.10.;Schweiz;;83225;https://sortiment.lidl.ch/de/kartoffeln-festkochend-2-5-kg-0083225;Gemüse;;yes;no;4;2,5kg;2500g;0.09;g;2024-10-24;2024-10-30;Thursday;Wednesday;6 days;yes
+Bio Gurken;;pro 250g | 100g = 0.60 CHF;1.49;;1.49;;Spanien;BIO Organic;84430;https://sortiment.lidl.ch/de/bio-gurken-0084430;Gemüse;;no;yes;2;250g;250g;0.6;g;;;;;;no
+Kartoffeln mehligkochend 2.5kg;;pro 2,5kg |;2.9;;2.9;;Schweiz;;83275;https://sortiment.lidl.ch/de/kartoffeln-mehligkochend-2-5kg-0083275;Gemüse;;yes;no;3;2,5kg;2500g;0.12;g;;;;;;no
+Blumenkohl & Broccoli Mix;;pro 400g | 100g = 0.75 CHF;2.99;;2.99;;Schweiz;;82887;https://sortiment.lidl.ch/de/blumenkohl-broccoli-mix-0082887;Gemüse;;yes;no;4;400g;400g;0.75;g;;;;;;no
+Saucenzwiebeln Mix;;pro 500g | 1Kg = 1.98 CHF;0.99;;0.99;;Schweiz;Terra Natura;83343;https://sortiment.lidl.ch/de/saucenzwiebeln-mix-0083343;Gemüse;;yes;no;2;500g;500g;0.2;g;;;;;;no
+Karotten Terra Natura;13.0;pro 1kg |;1.69;;1.69;;Schweiz;;82755;https://sortiment.lidl.ch/de/karotten-terra-natura-0082755;Gemüse;;yes;no;3;1kg;1000g;0.17;g;;;;;;no
+Mini Paprika Mix;2.0;pro 200g | 100g = 0.50 CHF;0.99;;0.99;;Spanien;;82670;https://sortiment.lidl.ch/de/mini-paprika-mix-0082670;Gemüse;;no;no;3;200g;200g;0.49;g;;;;;;no
+Pak Choi 2 Stk;2.0;pro 2 Stk. |;1.59;;1.59;;Spanien;;82923;https://sortiment.lidl.ch/de/pak-choi-2-stk-0082923;Gemüse;;no;no;4;2;2 Stücke;0.8;Stück;;;;;;no
+Kartoffeln 1.5kg;42.0;pro 1,5kg | 1Kg = 1.46 CHF;2.19;;2.19;;Schweiz;Terra Natura;83223;https://sortiment.lidl.ch/de/kartoffeln-1-5kg-0083223;Gemüse;;yes;no;2;1,5kg;1500g;0.15;g;;;;;;no
+Bio Champignons braun;26.0;pro 250g | 100g = 0.72 CHF;1.79;;1.79;;Deutschland;BIO Organic;84597;https://sortiment.lidl.ch/de/bio-champignons-braun-0084597;Gemüse;;no;yes;3;250g;250g;0.72;g;;;;;;no
+Schalotten 500g;5.0;pro 500g | 1Kg = 3.30 CHF;1.65;;1.65;;Schweiz;Terra Natura;83377;https://sortiment.lidl.ch/de/schalotten-500g-0083377;Gemüse;;yes;no;2;500g;500g;0.33;g;;;;;;no
+Zwiebeln gelb 1kg;23.0;pro 1kg |;1.79;;1.79;;Schweiz;Terra Natura;83331;https://sortiment.lidl.ch/de/zwiebeln-gelb-1kg-0083331;Gemüse;;yes;no;3;1kg;1000g;0.18;g;;;;;;no
+Spitzpaprika hellgrün 400g;;pro 400g | 100g = 0.45 CHF;1.79;;1.79;;Marokko;;82569;https://sortiment.lidl.ch/de/spitzpaprika-hellgruen-400g-0082569;Gemüse;;no;no;3;400g;400g;0.45;g;;;;;;no
+Bio Kohlmix;;pro Stück |;2.49;;2.49;;Schweiz;BIO Organic;84457;https://sortiment.lidl.ch/de/bio-kohlmix-0084457;Gemüse;;yes;yes;2;Stück;1 Stück;2.49;Stück;;;;;;no
+Rüebli 1kg;27.0;pro 1kg |;1.69;;1.69;;Schweiz;Terra Natura;82761;https://sortiment.lidl.ch/de/rueebli-1kg-0082761;Gemüse;;yes;no;2;1kg;1000g;0.17;g;;;;;;no
+Bio Snack Rüebli 200g;25.0;pro 200g | 100g = 0.85 CHF;1.69;;1.69;;variabel;BIO Organic;84449;https://sortiment.lidl.ch/de/bio-snack-rueebli-200g-0084449;Gemüse;;no;yes;4;200g;200g;0.84;g;;;;;;no
+BIO Buschbohnen 350g;6.0;pro 350g | 100g = 0.77 CHF;2.69;;2.69;;Spanien;BIO Organic;84387;https://sortiment.lidl.ch/de/bio-buschbohnen-350g-0084387;Gemüse;;no;yes;3;350g;350g;0.77;g;;;;;;no
+Knoblauch;18.0;pro Stück |;0.45;;0.45;;Spanien;;82706;https://sortiment.lidl.ch/de/knoblauch-0082706;Gemüse;;no;no;1;Stück;1 Stück;0.45;Stück;;;;;;no
+Bio Baby Spinat 100g;24.0;pro 100g |;1.29;;1.29;;Italien;BIO Organic;84440;https://sortiment.lidl.ch/de/bio-baby-spinat-100g-0084440;Gemüse;;no;yes;4;100g;100g;1.29;g;;;;;;no
+Dattelcherry-Tomaten 500g;1.0;pro 500g | 1Kg = 3.58 CHF;1.79;;1.79;;variabel;;82411;https://sortiment.lidl.ch/de/dattelcherry-tomaten-500g-0082411;Gemüse;;no;no;2;500g;500g;0.36;g;;;;;;no
+Kohlrabi;24.0;pro Stück |;1.39;;1.39;;Schweiz;;82735;https://sortiment.lidl.ch/de/kohlrabi-0082735;Gemüse;;yes;no;1;Stück;1 Stück;1.39;Stück;;;;;;no
+Fenchel;19.0;pro 1kg |;3.39;;3.39;;Schweiz;;82690;https://sortiment.lidl.ch/de/fenchel-0082690;Gemüse;;yes;no;1;1kg;1000g;0.34;g;;;;;;no
+Kürbis Butternuss;5.0;pro 1kg |;2.95;;2.95;;Schweiz;;82835;https://sortiment.lidl.ch/de/kuerbis-butternuss-0082835;Gemüse;;yes;no;2;1kg;1000g;0.3;g;;;;;;no
+Süsskartoffeln;18.0;pro 1kg |;1.79;;1.79;;variabel;;80755;https://sortiment.lidl.ch/de/suesskartoffeln-0080755;Gemüse;;no;no;1;1kg;1000g;0.18;g;;;;;;no
+Blumenkohl;2.0;pro kg |;3.99;;3.99;;Schweiz;;82875;https://sortiment.lidl.ch/de/blumenkohl-0082875;Gemüse;;yes;no;1;kg;1000g;0.4;g;;;;;;no
+Wirz;;pro 1kg |;2.69;;2.69;;Schweiz;;82960;https://sortiment.lidl.ch/de/wirz-0082960;Gemüse;;yes;no;1;1kg;1000g;0.27;g;;;;;;no
+Weisskohl;2.0;pro 1kg |;1.59;-30%;1.59;24.10. - 30.10.;Schweiz;;82955;https://sortiment.lidl.ch/de/weisskohl-0082955;Gemüse;;yes;no;1;1kg;1000g;0.16;g;2024-10-24;2024-10-30;Thursday;Wednesday;6 days;yes
+Rotkohl;;pro 1kg |;2.29;;2.29;;Schweiz;;82945;https://sortiment.lidl.ch/de/rotkohl-0082945;Gemüse;;yes;no;1;1kg;1000g;0.23;g;;;;;;no
+Rosenkohl 500g;1.0;pro 500g | 1Kg = 5.90 CHF;2.95;;2.95;;Schweiz;;82931;https://sortiment.lidl.ch/de/rosenkohl-500g-0082931;Gemüse;;yes;no;2;500g;500g;0.59;g;;;;;;no
+Chinakohl;2.0;pro 1kg |;2.75;;2.75;;Schweiz;;82910;https://sortiment.lidl.ch/de/chinakohl-0082910;Gemüse;;yes;no;1;1kg;1000g;0.27;g;;;;;;no
+Broccoli 500g;3.0;pro 500g | 1Kg = 3.58 CHF;1.79;;1.79;;variabel;;82904;https://sortiment.lidl.ch/de/broccoli-500g-0082904;Gemüse;;no;no;2;500g;500g;0.36;g;;;;;;no
+Broccoli;1.0;pro 1kg |;3.99;;3.99;;Schweiz;;82895;https://sortiment.lidl.ch/de/broccoli-0082895;Gemüse;;yes;no;1;1kg;1000g;0.4;g;;;;;;no
+Eisbergsalat;11.0;pro Stück |;1.59;;1.59;;Schweiz;;82031;https://sortiment.lidl.ch/de/eisbergsalat-0082031;Gemüse;;yes;no;1;Stück;1 Stück;1.59;Stück;;;;;;no
+Rucola 125g;;pro 125g | 100g = 0.68 CHF;0.85;;0.85;;Italien;;82135;https://sortiment.lidl.ch/de/rucola-125g-0082135;Gemüse;;no;no;2;125g;125g;0.68;g;;;;;;no
+Kopfsalat;7.0;pro Stück |;1.49;;1.49;;Schweiz;;82071;https://sortiment.lidl.ch/de/kopfsalat-0082071;Gemüse;;yes;no;1;Stück;1 Stück;1.49;Stück;;;;;;no
+Bio Nüsslisalat 125g;;pro 125g | 100g = 3.20 CHF;3.99;;3.99;;Schweiz;BIO Organic;84510;https://sortiment.lidl.ch/de/bio-nuesslisalat-125g-0084510;Gemüse;;yes;yes;3;125g;125g;3.19;g;;;;;;no
+Nüsslisalat 125g;2.0;pro 125g | 100g = 2.20 CHF;2.75;;2.75;;Schweiz;;82051;https://sortiment.lidl.ch/de/nuesslisalat-125g-0082051;Gemüse;;yes;no;2;125g;125g;2.2;g;;;;;;no
+Bio Rucola 100g;;pro 100g |;1.49;;1.49;;Italien;BIO Organic;84520;https://sortiment.lidl.ch/de/bio-rucola-100g-0084520;Gemüse;;no;yes;3;100g;100g;1.49;g;;;;;;no
+Kopfsalat rot;2.0;pro Stück |;1.59;;1.59;;Schweiz;;82072;https://sortiment.lidl.ch/de/kopfsalat-rot-0082072;Gemüse;;yes;no;2;Stück;1 Stück;1.59;Stück;;;;;;no
+Kopfsalatherzen 2 Stück;;pro 2 Stück |;2.99;;2.99;;Schweiz;;82069;https://sortiment.lidl.ch/de/kopfsalatherzen-2-stueck-0082069;Gemüse;;yes;no;3;2;2 Stücke;1.5;Stück;;;;;;no
+Chicorée 500g;7.0;pro 500g | 1Kg = 3.98 CHF;1.99;;1.99;;variabel;;82015;https://sortiment.lidl.ch/de/chicoree-500g-0082015;Gemüse;;no;no;2;500g;500g;0.4;g;;;;;;no
+Dattelcherry-Tomaten 250g;10.0;pro 250g | 100g = 1.00 CHF;2.49;;2.49;;Schweiz;;82407;https://sortiment.lidl.ch/de/dattelcherry-tomaten-250g-0082407;Gemüse;;yes;no;2;250g;250g;1.0;g;;;;;;no
+Bio Rispentomaten 500g;2.0;pro 500g | 1Kg = 5.98 CHF;2.99;;2.99;;variabel;BIO Organic;84570;https://sortiment.lidl.ch/de/bio-rispentomaten-500g-0084570;Gemüse;;no;yes;3;500g;500g;0.6;g;;;;;;no
+Bio Cherry-Rispentomaten;;pro 400g | 100g = 0.75 CHF;2.99;;2.99;;Spanien;BIO Organic;84549;https://sortiment.lidl.ch/de/bio-cherry-rispentomaten-0084549;Gemüse;;no;yes;2;400g;400g;0.75;g;;;;;;no
+BIO Dattel-Cherrytomaten 250g;;pro 250g | 100g = 1.52 CHF;3.79;;3.79;;Schweiz;BIO Organic;84560;https://sortiment.lidl.ch/de/bio-dattel-cherrytomaten-250g-0084560;Gemüse;;yes;yes;3;250g;250g;1.52;g;;;;;;no
+Tomaten San Marzano;;pro 1kg |;3.79;;3.79;;Schweiz;;82505;https://sortiment.lidl.ch/de/tomaten-san-marzano-0082505;Gemüse;;yes;no;3;1kg;1000g;0.38;g;;;;;;no
+Tomaten Coeur de Boeuf;7.0;pro 1kg |;4.49;;4.49;;Schweiz;;82500;https://sortiment.lidl.ch/de/tomaten-coeur-de-boeuf-0082500;Gemüse;;yes;no;4;1kg;1000g;0.45;g;;;;;;no
+Tomaten 1kg;1.0;pro 1kg |;1.89;;1.89;;variabel;;82488;https://sortiment.lidl.ch/de/tomaten-1kg-0082488;Gemüse;;no;no;2;1kg;1000g;0.19;g;;;;;;no
+Tomaten;;pro 1kg |;2.95;;2.95;;Schweiz;typisch;82480;https://sortiment.lidl.ch/de/tomaten-0082480;Gemüse;;yes;no;1;1kg;1000g;0.3;g;;;;;;no
+Rispentomaten;1.0;pro 1kg |;3.59;;3.59;;Schweiz;typisch;82465;https://sortiment.lidl.ch/de/rispentomaten-0082465;Gemüse;;yes;no;1;1kg;1000g;0.36;g;;;;;;no
+Romatomaten 500g;1.0;pro 500g | 1Kg = 3.98 CHF;1.99;;1.99;;variabel;;82446;https://sortiment.lidl.ch/de/romatomaten-500g-0082446;Gemüse;;no;no;2;500g;500g;0.4;g;;;;;;no
+Cherryrispen-Tomaten 200g;10.0;pro 200g | 100g = 1.15 CHF;2.29;;2.29;;variabel;Deluxe;82437;https://sortiment.lidl.ch/de/cherryrispen-tomaten-200g-0082437;Gemüse;;no;no;2;200g;200g;1.15;g;;;;;;no
+Cherryrispen-Tomaten 500g;23.0;pro 500g | 1Kg = 7.90 CHF;3.95;;3.95;;variabel;typisch;82388;https://sortiment.lidl.ch/de/cherryrispen-tomaten-500g-0082388;Gemüse;;no;no;2;500g;500g;0.79;g;;;;;;no
+Suppengemüse;;pro 1kg |;4.29;;4.29;;Schweiz;;82329;https://sortiment.lidl.ch/de/suppengemuese-0082329;Gemüse;;yes;no;1;1kg;1000g;0.43;g;;;;;;no
+Lauchzwiebeln;10.0;pro Stück |;1.59;;1.59;;Schweiz;;82236;https://sortiment.lidl.ch/de/lauchzwiebeln-0082236;Gemüse;;yes;no;1;Stück;1 Stück;1.59;Stück;;;;;;no
+Gurke;11.0;pro Stück |;0.89;;0.89;;variabel;;82231;https://sortiment.lidl.ch/de/gurke-0082231;Gemüse;;no;no;1;Stück;1 Stück;0.89;Stück;;;;;;no
+Bio Zucchetti 500g;6.0;pro 500g | 1Kg = 3.18 CHF;1.59;;1.59;;variabel;BIO Organic;84545;https://sortiment.lidl.ch/de/bio-zucchetti-500g-0084545;Gemüse;;no;yes;3;500g;500g;0.32;g;;;;;;no
+Auberginen;7.0;pro 1kg |;1.99;;1.99;;variabel;;82180;https://sortiment.lidl.ch/de/auberginen-0082180;Gemüse;;no;no;1;1kg;1000g;0.2;g;;;;;;no
+Bio Lauch 500g;;pro 500g | 1Kg = 5.98 CHF;2.99;;2.99;;Schweiz;BIO Organic;84540;https://sortiment.lidl.ch/de/bio-lauch-500g-0084540;Gemüse;;yes;yes;3;500g;500g;0.6;g;;;;;;no
+Bio Gurke;6.0;pro Stück |;0.99;;0.99;;variabel;BIO Organic;84535;https://sortiment.lidl.ch/de/bio-gurke-0084535;Gemüse;;no;yes;2;Stück;1 Stück;0.99;Stück;;;;;;no
+Zucchetti;;pro 1kg |;1.99;;1.99;;variabel;;82345;https://sortiment.lidl.ch/de/zucchetti-0082345;Gemüse;;no;no;1;1kg;1000g;0.2;g;;;;;;no
+Stangenbohnen 500g;;pro 500g | 1Kg = 4.70 CHF;2.35;;2.35;;variabel;;82327;https://sortiment.lidl.ch/de/stangenbohnen-500g-0082327;Gemüse;;no;no;2;500g;500g;0.47;g;;;;;;no
+Spinat 500g;;pro 500g | 1Kg = 6.98 CHF;3.49;;3.49;;Schweiz;;82319;https://sortiment.lidl.ch/de/spinat-500g-0082319;Gemüse;;yes;no;2;500g;500g;0.7;g;;;;;;no
+Radieschen 250g;;pro Stück |;1.49;;1.49;;Schweiz;;82275;https://sortiment.lidl.ch/de/radieschen-250g-0082275;Gemüse;;yes;no;2;Stück;1 Stück;1.49;Stück;;;;;;no
+Stangenlauch;;pro 1kg |;4.49;;4.49;;Schweiz;;82255;https://sortiment.lidl.ch/de/stangenlauch-0082255;Gemüse;;yes;no;1;1kg;1000g;0.45;g;;;;;;no
+Snack Gurken 250g;16.0;pro 250g | 100g = 0.80 CHF;1.99;;1.99;;variabel;Kids Snack;82241;https://sortiment.lidl.ch/de/snack-gurken-250g-0082241;Gemüse;;no;no;3;250g;250g;0.8;g;;;;;;no
+Buschbohnen 500g;;pro 500g | 1Kg = 7.18 CHF;3.59;;3.59;;Schweiz;;82212;https://sortiment.lidl.ch/de/buschbohnen-500g-0082212;Gemüse;;yes;no;2;500g;500g;0.72;g;;;;;;no
+Bio Zwiebeln 500g;1.0;pro 500g | 1Kg = 4.58 CHF;2.29;;2.29;;Schweiz;BIO Organic;84665;https://sortiment.lidl.ch/de/bio-zwiebeln-500g-0084665;Gemüse;;yes;yes;3;500g;500g;0.46;g;;;;;;no
+Kartoffeln 2kg;;pro 2kg | 1Kg = 1.16 CHF;2.32;;2.32;;Schweiz;;83244;https://sortiment.lidl.ch/de/kartoffeln-2kg-0083244;Gemüse;;yes;no;2;2kg;2000g;0.12;g;;;;;;no
+Bio Kartoffeln mehligkochend 1kg;;pro 1kg |;2.65;;2.65;;Schweiz;BIO Organic;84669;https://sortiment.lidl.ch/de/bio-kartoffeln-mehligkochend-1kg-0084669;Gemüse;;yes;yes;4;1kg;1000g;0.27;g;;;;;;no
+Bio Kartoffeln festkochend 1kg;;pro 1kg |;2.65;;2.65;;Schweiz;BIO Organic;84660;https://sortiment.lidl.ch/de/bio-kartoffeln-festkochend-1kg-0084660;Gemüse;;yes;yes;4;1kg;1000g;0.27;g;;;;;;no
+Zwiebeln rot 1kg;11.0;pro 1kg |;1.79;;1.79;;variabel;Terra Natura;83352;https://sortiment.lidl.ch/de/zwiebeln-rot-1kg-0083352;Gemüse;;no;no;3;1kg;1000g;0.18;g;;;;;;no
+Zwiebeln 2kg;;pro 2kg | 1Kg = 1.48 CHF;2.95;;2.95;;Schweiz;Terra Natura;83333;https://sortiment.lidl.ch/de/zwiebeln-2kg-0083333;Gemüse;;yes;no;2;2kg;2000g;0.15;g;;;;;;no
+Zwiebeln gelb;;pro 1kg |;1.59;;1.59;;Schweiz;Terra Natura;83325;https://sortiment.lidl.ch/de/zwiebeln-gelb-0083325;Gemüse;;yes;no;2;1kg;1000g;0.16;g;;;;;;no
+Baked Potatoes 5kg;5.0;pro 5kg | 1Kg = 1.12 CHF;5.6;;5.6;;Schweiz;;83318;https://sortiment.lidl.ch/de/baked-potatoes-5kg-0083318;Gemüse;;yes;no;3;5kg;5000g;0.11;g;;;;;;no
+Kartoffeln Raclette 1kg;1.0;pro 1kg |;1.49;;1.49;;Schweiz;;83222;https://sortiment.lidl.ch/de/kartoffeln-raclette-1kg-0083222;Gemüse;;yes;no;3;1kg;1000g;0.15;g;;;;;;no
+Kartoffeln Les Royales;;pro 1kg |;1.39;;1.39;;Schweiz;;83215;https://sortiment.lidl.ch/de/kartoffeln-les-royales-0083215;Gemüse;;yes;no;3;1kg;1000g;0.14;g;;;;;;no
+Bio Gartenkräuter;6.0;pro Stück |;1.99;;1.99;;variabel;BIO Organic;84647;https://sortiment.lidl.ch/de/bio-gartenkraeuter-0084647;Gemüse;;no;yes;2;Stück;1 Stück;1.99;Stück;;;;;;no
+Champignons weiss 400g;7.0;pro 400g | 100g = 0.40 CHF;1.59;;1.59;;variabel;;83017;https://sortiment.lidl.ch/de/champignons-weiss-400g-0083017;Gemüse;;no;no;3;400g;400g;0.4;g;;;;;;no
+Champignons weiss 250g;16.0;pro 250g | 100g = 0.68 CHF;1.69;;1.69;;variabel;;83015;https://sortiment.lidl.ch/de/champignons-weiss-250g-0083015;Gemüse;;no;no;3;250g;250g;0.68;g;;;;;;no
+Zuckermais gekocht 400g;2.0;pro 400g | 100g = 0.38 CHF;1.49;;1.49;;Spanien;;82864;https://sortiment.lidl.ch/de/zuckermais-gekocht-400g-0082864;Gemüse;;no;no;3;400g;400g;0.37;g;;;;;;no
+Bio Muskat Kürbis;;pro 1kg |;3.99;;3.99;;Schweiz;BIO Organic;84677;https://sortiment.lidl.ch/de/bio-muskat-kuerbis-0084677;Gemüse;;yes;yes;3;1kg;1000g;0.4;g;;;;;;no
+BIO Organic Bio Randen;;pro 1kg |;3.99;;3.99;;Schweiz;BIO Organic;84634;https://sortiment.lidl.ch/de/bio-organic-bio-randen-0084634;Gemüse;;yes;yes;4;1kg;1000g;0.4;g;;;;;;no
+Bio Pastinaken 500g;;pro 500g | 1Kg = 3.98 CHF;1.99;;1.99;;variabel;BIO Organic;84626;https://sortiment.lidl.ch/de/bio-pastinaken-500g-0084626;Gemüse;;no;yes;3;500g;500g;0.4;g;;;;;;no
+Bio Rüebli 1kg;5.0;pro 1kg |;2.0;-39%;2.0;24.10. - 30.10.;Schweiz;BIO Organic;84611;https://sortiment.lidl.ch/de/bio-rueebli-1kg-0084611;Gemüse;;yes;yes;3;1kg;1000g;0.2;g;2024-10-24;2024-10-30;Thursday;Wednesday;6 days;yes
+Bio Zuckermais 350g;;pro 350g | 100g = 0.86 CHF;2.99;;2.99;;Schweiz;BIO Organic;84592;https://sortiment.lidl.ch/de/bio-zuckermais-350g-0084592;Gemüse;;yes;yes;3;350g;350g;0.85;g;;;;;;no
+BIO Stangen-Sellerie 500g;2.0;pro 500g | 1Kg = 6.98 CHF;3.49;;3.49;;Schweiz;BIO Organic;84458;https://sortiment.lidl.ch/de/bio-stangen-sellerie-500g-0084458;Gemüse;;yes;yes;3;500g;500g;0.7;g;;;;;;no
+Rüebli Terra Natura 2,5kg;;pro 2,5kg | 1Kg = 1.60 CHF;3.99;;3.99;;Schweiz;;83670;https://sortiment.lidl.ch/de/rueebli-terra-natura-2-5kg-0083670;Gemüse;;yes;no;4;2,5kg;2500g;0.16;g;;;;;;no
+Kürbis Hokkaido;;pro 1kg |;2.79;;2.79;;Schweiz;;82840;https://sortiment.lidl.ch/de/kuerbis-hokkaido-0082840;Gemüse;;yes;no;2;1kg;1000g;0.28;g;;;;;;no
+Knollen-Sellerie;;pro 1kg |;2.49;;2.49;;Schweiz;;82720;https://sortiment.lidl.ch/de/knollen-sellerie-0082720;Gemüse;;yes;no;1;1kg;1000g;0.25;g;;;;;;no
+Knoblauch 200g;;pro 200g | 100g = 0.40 CHF;0.79;;0.79;;Spanien;;82711;https://sortiment.lidl.ch/de/knoblauch-200g-0082711;Gemüse;;no;no;2;200g;200g;0.4;g;;;;;;no
+Kürbis Halloween;;pro Stück |;4.99;;4.99;;Deutschland;;82696;https://sortiment.lidl.ch/de/kuerbis-halloween-0082696;Gemüse;;no;no;2;Stück;1 Stück;4.99;Stück;;;;;;no
+Bio Peperoni Mix 400g;7.0;pro 400g | 100g = 0.45 CHF;1.79;;1.79;;variabel;BIO Organic;84587;https://sortiment.lidl.ch/de/bio-peperoni-mix-400g-0084587;Gemüse;;no;yes;4;400g;400g;0.45;g;;;;;;no
+Peperoncini Mix 100g;11.0;pro 100g |;0.85;;0.85;;variabel;;82660;https://sortiment.lidl.ch/de/peperoncini-mix-100g-0082660;Gemüse;;no;no;3;100g;100g;0.85;g;;;;;;no
+Spitzpeperoni rot 500g;11.0;pro 500g | 1Kg = 1.98 CHF;0.99;-37%;0.99;24.10. - 30.10.;variabel;;82637;https://sortiment.lidl.ch/de/spitzpeperoni-rot-500g-0082637;Gemüse;;no;no;3;500g;500g;0.2;g;2024-10-24;2024-10-30;Thursday;Wednesday;6 days;yes
+Peperoni rot;2.0;pro 1kg |;2.79;;2.79;;variabel;;82615;https://sortiment.lidl.ch/de/peperoni-rot-0082615;Gemüse;;no;no;2;1kg;1000g;0.28;g;;;;;;no
+Peperoni Mix 500g;78.0;pro 500g | 1Kg = 2.00 CHF;1.0;-22%;1.0;25.10. - 27.10.;variabel;;82586;https://sortiment.lidl.ch/de/peperoni-mix-500g-0082586;Gemüse;;no;no;3;500g;500g;0.2;g;2024-10-25;2024-10-27;Friday;Sunday;2 days;yes
+Spitzpeperoni gelb 500g;1.0;pro 500g | 1Kg = 3.18 CHF;1.59;;1.59;;variabel;;82541;https://sortiment.lidl.ch/de/spitzpeperoni-gelb-500g-0082541;Gemüse;;no;no;3;500g;500g;0.32;g;;;;;;no
