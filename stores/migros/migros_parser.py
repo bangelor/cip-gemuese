@@ -28,11 +28,11 @@ class MigrosParser:
                 price = 'NA'
 
             # Extract 'Gewicht'
-            weight_tag = product.find('span', {'class': lambda x: x and 'weight-priceUnit' in x})
-            if weight_tag:
-                weight = clean_data(weight_tag.text)
+            amount_tag = product.find('span', {'class': lambda x: x and 'weight-priceUnit' in x})
+            if amount_tag:
+                amount = clean_data(amount_tag.text)
             else:
-                weight = 'NA'
+                amount = 'NA'
 
             # Extract the product URL
             url_tag = product.find('a', href=True)
@@ -44,7 +44,7 @@ class MigrosParser:
             products.append({
                 'name': name,
                 'price': price,
-                'weight': weight,
+                'amount': amount,
                 'product_url': product_url  # Include product URL for detail scraping
             })
 
