@@ -27,6 +27,13 @@ class MigrosParser:
             else:
                 price = 'NA'
 
+            # Extract 'Gewicht'
+            weight_tag = product.find('dd', {'data-cy': lambda x: x and 'weight' in x})
+            if weight_tag:
+                weight = clean_data(weight_tag.text)
+            else:
+                weight = 'NA'
+
             # Extract the product URL
             url_tag = product.find('a', href=True)
             if url_tag:
@@ -37,6 +44,7 @@ class MigrosParser:
             products.append({
                 'name': name,
                 'price': price,
+                'weight': weight,
                 'product_url': product_url  # Include product URL for detail scraping
             })
 
@@ -57,11 +65,6 @@ class MigrosParser:
         characteristics_tag = soup.find('dd', {'data-cy': lambda x: x and 'eigenschaften' in x})
         if characteristics_tag:
             product_details['characteristics'] = clean_data(characteristics_tag.text)
-
-        # Extract 'Gewicht'
-        weight_tag = soup.find('dd', {'data-cy': lambda x: x and 'weight' in x})
-        if weight_tag:
-            product_details['characteristics'] = clean_data(weight_tag.text)
 
         # Extract 'Produktionsland'
         origin_tag = soup.find('dd', {'data-cy': lambda x: x and 'origin' in x})
