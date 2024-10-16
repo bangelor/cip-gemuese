@@ -12,9 +12,10 @@ def clean_data(text):
     cleaned = re.sub(r'\s+', ' ', cleaned)  # Replace multiple spaces with a single space
     cleaned = cleaned.replace('\xa0', ' ')  # Handle non-breaking spaces
     cleaned = cleaned.replace('&amp;', '&').replace('&quot;', '"').replace('&#39;', "'")
+    cleaned = cleaned.replace('Die Herkunftsangabe findest du auf der Verpackung in der Filiale.', 'NA'   )
 
     # Replace "2.\u2013" with "2.0" for prices
     cleaned = cleaned.replace('.\u2013', '')
-
+    print(cleaned)
     return cleaned
 

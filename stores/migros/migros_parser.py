@@ -57,19 +57,16 @@ class MigrosParser:
         characteristics_tag = soup.find('dd', {'data-cy': lambda x: x and 'eigenschaften' in x})
         if characteristics_tag:
             product_details['characteristics'] = clean_data(characteristics_tag.text)
-            print(characteristics_tag)
 
         # Extract 'Gewicht'
         weight_tag = soup.find('dd', {'data-cy': lambda x: x and 'weight' in x})
         if weight_tag:
             product_details['characteristics'] = clean_data(weight_tag.text)
-            print(weight_tag)
 
         # Extract 'Produktionsland'
         origin_tag = soup.find('dd', {'data-cy': lambda x: x and 'origin' in x})
         if origin_tag:
             product_details['origin'] = clean_data(origin_tag.text)
-            print(origin_tag)
 
         # # Extract 'Bewertung' (Rating)
         # rating_tag = soup.find('dd', {'data-cy': lambda x: x and 'rating' in x})
