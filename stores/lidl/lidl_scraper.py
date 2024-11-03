@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[4]:
-
-
 # Load Packages
 # Scraping
 import requests
@@ -21,6 +15,7 @@ import pandas as pd
 from datetime import datetime
 import os
 import time
+##################################################################################
 
 # The goal is to apply a top-down approach, starting from the main category (level 0) and working down to individual food items (Level 2).
 # 1) Retrieve essential information for Level 1 (subcategory): This includes the subcategory name and the corresponding URL.
@@ -214,9 +209,8 @@ df = pd.DataFrame(product)
 df['Subcategory'] = sub
 df['Date_collecting_data'] = pd.Timestamp.now()
 
-os.makedirs("dataset_lidl", exist_ok=True)
-
 # Current date for filename
+os.makedirs("dataset_lidl", exist_ok=True)
 current_date = datetime.now().strftime("%Y-%m-%d")
 
 # Save the CSV file in the 'dataset' folder with date in filename
