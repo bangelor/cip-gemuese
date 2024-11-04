@@ -6,10 +6,30 @@ from langchain.chat_models import ChatOpenAI
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 import re
-import ast
+import glob
+
+#define the directory path where the csv files are located in
+directory_path = "C:\\Users\\41798\\Desktop\\CIP\\cip-gemuese\\storage"
+
+#get all the paths from all csv files in this directory
+all_csv_files = glob.glob(os.path.join(directory_path, "*.csv"))
+
+#create a empty list to collect the
+dataframe_list = []
+
+for file in all_csv_files:
+    df = pd.read_csv(file)
+    dataframe_list.append(df)
+
+#concatinate all dataframes together
+aldi_df = pd.concat(dataframe_list, ignore_index=True)
 
 
-aldi_df = pd.read_csv("C:\\Users\\41798\\Desktop\\CIP\\cip-gemuese\\storage\\aldi_20241101 17_18_11.csv", sep=",")
+#show all the observations from the first 5 rows
+
+pd.options.display.max_columns = None
+pd.options.display.max_rows = None
+
 
 #information about the file
 aldi_df.info()
@@ -53,6 +73,9 @@ os.environ["OPENAI_API_KEY"] = "sk-proj-U5cBaPzeq0gE3IJym0HOpRCkQ3vYSbk7zhPjs1Ie
 
 openai_lst = list(aldi_df["name"])
 
+
+"""
+
 #create a template for the prompt
 
 prompt_template = PromptTemplate(
@@ -73,8 +96,6 @@ chain = LLMChain(llm=chat, prompt=prompt_template)
 response = chain.run(product_list=openai_lst)
 
 
-
-
 #create a function which only replies the list from chatgpt
 
 def list_returner(response):
@@ -83,20 +104,14 @@ def list_returner(response):
     return match
 
 
-
-
-
-
-
-
-
-
 filtered_response = list_returner(response)
 
 print(len(filtered_response))
 print(filtered_response)
 
 aldi_df["product_simple"] = filtered_response
+
+"""
 
 #create a column with the retailer
 
@@ -108,9 +123,9 @@ aldi_df[["main_category", "sub_category"]] = aldi_df["category"].str.split("/", 
 
 #write the new excel data
 
-filename_excel = f"aldi_20241101 17_18_11_complete.xlsx"
+filename_csv = f"aldi_transform.csv"
 directory = "C:\\Users\\41798\\Desktop\\CIP\\cip-gemuese\\storage\\"
-full_path_excel = os.path.join(directory,filename_excel)
+full_path_csv = os.path.join(directory,filename_csv)
 
-aldi_df.to_excel(full_path_excel, index=False)
+aldi_df.to_csv(full_path_csv, index=False)
 
