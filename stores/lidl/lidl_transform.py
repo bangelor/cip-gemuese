@@ -232,6 +232,19 @@ df.loc[(df['Product_new'] == "yes") & (df['Date'] == min_date), 'Product_new'] =
 # 15) Adding the store for comparing after merge
 df["Store"] = "lidl"
 
-# 16) Save transformed dataframe as csv-file with the date of transformation
+
+# 16) Column name for merging/combine aggregate regarding project scope
+df.rename(columns={'Title': 'name'}, inplace=True)
+df.rename(columns={'Price': 'price'}, inplace=True)
+df.rename(columns={'Clean_unit': 'amount'}, inplace=True)
+df.rename(columns={'Calculated_price_per100g_perStück': 'price per 100g/pice'}, inplace=True)
+df.rename(columns={'Subcategory_mod': 'main_category'}, inplace=True)
+df.rename(columns={'Bio': 'BIO'}, inplace=True)
+df.rename(columns={'Swiss_Product': 'Swiss_product'}, inplace=True)
+df.rename(columns={'store': 'retailer'}, inplace=True)
+df.rename(columns={'Date_collecting_data': 'time'}, inplace=True)
+
+
+# 17) Save transformed dataframe as csv-file with the date of transformation
 file_path = f"dataset_lidl/lidl_transform.csv"
 df.to_csv(file_path, index=False, sep=";")
