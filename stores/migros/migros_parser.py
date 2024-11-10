@@ -12,7 +12,7 @@ class MigrosParser:
         products = []
         
         for product in self.soup.find_all('article', class_='product-card'):
-            print(f'scraping Product: {product}')
+            print(f'scraping Product:')
             # Extract the product name
             name_tag = product.find('span', {'data-cy': lambda x: x and 'product-name' in x})
             if name_tag:
@@ -36,11 +36,11 @@ class MigrosParser:
 
              # Extract 'price_per_amount'
             if price:
-                convertet_price_per_kg_or_pc = price_per_unit(price, amount)
-                price_per_amount_cleaned = convertet_price_per_kg_or_pc[0]
-                unit = convertet_price_per_kg_or_pc[1]
+                price_unit = price_per_unit(price, amount)
+                price_per_amount = price_unit[0]
+                unit = price_unit[1]
             else:
-                price_per_amount_cleaned = 'NA'
+                price_per_amount = 'NA'
                 unit = 'NA'
 
             # Extract the product URL
@@ -54,14 +54,16 @@ class MigrosParser:
                 'name': name,
                 'price': price,
                 'amount': amount,
-                'price-unit': price_per_amount_cleaned,
-                'price_per_amount': price_per_amount_cleaned,
+                'price_unit': price_unit,
+                'price_per_amount': price_per_amount,
                 'unit': unit,
                 'store': 'migros',
-                'price_per_amount_cleaned': price_per_amount_cleaned
-                #'product_url': product_url  # Include product URL for detail scraping
+                'product_url': product_url  # Include product URL for detail scraping
             })
 
+            print(f"name: {name}")
+            print(f"price: {price}")
+            print(f"unit: {unit}")
         return products
 
 
@@ -78,9 +80,9 @@ class MigrosParser:
         # Extract 'Eigenschaften'
         characteristics_tag = soup.find('dd', {'data-cy': lambda x: x and 'eigenschaften' in x})
         if characteristics_tag:
-            product_details['characteristics'] = clean_data(characteristics_tag.text)
+            product_details['additional_information'] = clean_data(characteristics_tag.text)
         else: 
-            product_details['characteristics'] = 'NA'
+            product_details['additional_information'] = 'NA'
         # Extract 'Produktionsland'
         origin_tag = soup.find('dd', {'data-cy': lambda x: x and 'origin' in x})
         if origin_tag:

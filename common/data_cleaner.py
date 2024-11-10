@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-OPENAI_KEY = os.getent('OPENAI_KEY')
+OPENAI_KEY = os.getenv('OPENAI_KEY')
 
 def clean_data(text):
     """Utility function to clean scraped data"""
@@ -18,7 +18,7 @@ def clean_data(text):
     cleaned = re.sub(r'\s+', ' ', cleaned)  # Replace multiple spaces with a single space
     cleaned = cleaned.replace('\xa0', ' ')  # Handle non-breaking spaces
     cleaned = cleaned.replace('&amp;', '&').replace('&quot;', '"').replace('&#39;', "'")
-    cleaned = cleaned.replace(' St\u00fcck', 'pc.').replace(' Stk.', 'pc.') # Replace .Stk and Stück mit pc.
+    cleaned = cleaned.replace(' St\u00fcck', 'pc').replace(' Stk.', 'pc').replace('pc.', 'pc') # Replace .Stk and Stück mit pc.
     cleaned = cleaned.replace('Die Herkunftsangabe findest du auf der Verpackung in der Filiale.', 'multiple'   ) # Replace with multiple if Herkunftsangabe is on packaging
     cleaned = cleaned.replace('\/', '/')
     # Replace "2.\u2013" with "2.0" for prices
@@ -30,14 +30,17 @@ def chatGPT_simplify_names(name):
     openai.api_key = OPENAI_KEY
     # Create a prompt for the ChatGPT API
     prompt = (
-        f"Given the product name '{name}', return only the simplified name of the fruit or vegetable in German. "
-        f"For example, if the input is 'Schweizer Rockit Äpfel 400g, SUISSE GARANTIE', "
-        f"the output should be 'Äpfel'. Return only one word! Always return the plural form of the word!"
+        f"Gib basierend auf dem Produktnamen eines Lebensmittelladens nur den vereinfachten Namen der Frucht oder des Gemüses auf Deutsch in der Pluralform zurück. "
+        f"Stelle sicher, dass die Ausgabe nur ein einziges Wort ist, ohne Präfixe oder Suffixe. Zum Beispiel: "
+        f"- Wenn der Input 'Schweizer Rockit Äpfel 400g, SUISSE GARANTIE' ist, sollte die Ausgabe 'Äpfel' sein. "
+        f"- Wenn der Input 'Avocado' ist, sollte die Ausgabe 'Avocados' sein (ohne zusätzliche Wörter). "
+        f"Gib nur die Pluralform als einzelnes Wort zurück, ohne zusätzlichen Text oder Erklärungen."
+        f"Der Produkname zum prozessieren ist {name}"
     )
 
     # Call the OpenAI Chat API for the response
     response = openai.ChatCompletion.create(
-        model="gpt-3.5-turbo",  # or "gpt-4" if you have access
+        model="gpt-3.5-turbo",
         messages=[{"role": "user", "content": prompt}]
     )
 
@@ -63,27 +66,7 @@ def price_per_unit(price, amount):
         price_per_unit = price / quantity
 
     else:
-        raise ValueError("Unknown unit in amount")
-
+        print("Unknown unit in amount, returning NA")
+        unit = "NA"
+        price_per_unit = "NA"
     return (price_per_unit, unit)
-
-    # Remove any white spaces and handle common formatting issues
-    price_str = price_str.replace(" ", "").replace("\\", "")
-    
-    # Extract the price and unit using regular expressions
-    match = re.match(r'([\d\.]+)\/(\d*)([a-zA-Z]+)', price_str)
-    if not match:
-        return 0
-    price = float(match.group(1))
-    quantity = match.group(2)  # This can be empty for units like 'stk'
-    unit = match.group(3).lower()
-
-    # Convert the price to price per kg based on the unit
-    if unit == 'kg':
-        return price, unit
-    elif unit == 'g' and quantity:
-        return price * (1000 / int(quantity)), 'kg'
-    elif unit in ['stk', 'pc', 'pz']:
-        return price, 'pc'  # Price per piece doesn't need conversion
-    else:
-        return 0

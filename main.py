@@ -1,5 +1,5 @@
 from stores.migros.migros_scraper import MigrosScraper
-from stores.lidl.lidl_scraper_not_Oo import LidlScraper 
+from stores.lidl.lidl_scraper import LidlScraper 
 from storage.azure_blob_storage import AzureBlobStorage
 from stores.aldi.ALDI_SCRAPER import AldiScraper
 import json
@@ -56,6 +56,6 @@ def scrape_lidl_and_store():
 
 # Usage
 if __name__ == "__main__":
-    #scrape_migros_and_store()
-    #scrape_aldi_and_store()
+    scrape_migros_and_store()
+    scrape_aldi_and_store()
     scrape_lidl_and_store() 

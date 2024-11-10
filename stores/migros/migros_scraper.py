@@ -34,7 +34,7 @@ class MigrosScraper:
         while True:
             try:
                 # Wait for the button to be present and clickable
-                load_more_button = WebDriverWait(self.driver, 10).until(
+                load_more_button = WebDriverWait(self.driver, 15).until(
                     EC.element_to_be_clickable((By.XPATH, "//div[@class='view-more']/a"))
                 )
                 print("Clicking '100 weitere Produkte ansehen' button...")

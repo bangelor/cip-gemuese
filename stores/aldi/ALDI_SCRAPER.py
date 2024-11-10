@@ -68,9 +68,10 @@ class AldiScraper:
                 "amount": product_amount,
                 "price_per_amount": product_price_per_amount,
                 "unit": unit,
-                "origin": country_origin,
+                "price_unit": converted_to_price_per_kg_or_pc,
+                #"origin": country_origin,
                 'store': 'aldi',
-                "characteristics": additional_info,
+                #"characteristics": additional_info,
             }
         except Exception as e:
             print(f"Error extracting data from {url}: {e}")
