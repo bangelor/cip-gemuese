@@ -1,6 +1,6 @@
 # stores/migros/migros_parser.py
 from bs4 import BeautifulSoup
-from common.data_cleaner import clean_data
+from common.data_cleaner import clean_data, price_per_unit, chatGPT_simplify_names
 
 class MigrosParser:
     def __init__(self, driver, raw_html):
@@ -16,16 +16,16 @@ class MigrosParser:
             # Extract the product name
             name_tag = product.find('span', {'data-cy': lambda x: x and 'product-name' in x})
             if name_tag:
-                name = clean_data(name_tag.text)
+                name = chatGPT_simplify_names(name_tag.text)
             else:
                 name = 'Unknown'
 
             # Extract the product price
             price_tag = product.find('span', {'data-cy': lambda x: x and 'current-price' in x})
             if price_tag:
-                price = clean_data(price_tag.text)
+                price = float(clean_data(price_tag.text))
             else:
-                price = 'NA'
+                price = 0
 
             # Extract 'Gewicht'
             amount_tag = product.find('span', {'class': lambda x: x and 'weight-priceUnit' in x})
@@ -33,6 +33,15 @@ class MigrosParser:
                 amount = clean_data(amount_tag.text)
             else:
                 amount = 'NA'
+
+             # Extract 'price_per_amount'
+            if price:
+                convertet_price_per_kg_or_pc = price_per_unit(price, amount)
+                price_per_amount_cleaned = convertet_price_per_kg_or_pc[0]
+                unit = convertet_price_per_kg_or_pc[1]
+            else:
+                price_per_amount_cleaned = 'NA'
+                unit = 'NA'
 
             # Extract the product URL
             url_tag = product.find('a', href=True)
@@ -45,7 +54,12 @@ class MigrosParser:
                 'name': name,
                 'price': price,
                 'amount': amount,
-                'product_url': product_url  # Include product URL for detail scraping
+                'price-unit': price_per_amount_cleaned,
+                'price_per_amount': price_per_amount_cleaned,
+                'unit': unit,
+                'store': 'migros',
+                'price_per_amount_cleaned': price_per_amount_cleaned
+                #'product_url': product_url  # Include product URL for detail scraping
             })
 
         return products

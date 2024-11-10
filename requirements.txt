@@ -5,3 +5,6 @@ requests
 azure.storage.blob
 webdriver_manager
 pytest
+langchain
+openpyxl
+openai==0.28

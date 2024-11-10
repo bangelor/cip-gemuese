@@ -1,0 +1,1 @@
+ALDI_URL = 'https://www.aldi-now.ch'

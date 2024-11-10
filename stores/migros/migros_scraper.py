@@ -5,7 +5,7 @@ from stores.migros.migros_parser import MigrosParser
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException 
+from selenium.common.exceptions import TimeoutException, NoSuchElementException
 
 import time
 
@@ -16,15 +16,42 @@ class MigrosScraper:
     def scrape(self):
         """Method to start scraping Migros vegetable section"""
         self.driver.get(MIGROS_URL)
+
+        # Click '100 weitere Produkte ansehen' button until all products are loaded
+        self._click_load_more_button()
+
         # Wait for the product grid to load
         try:
             WebDriverWait(self.driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, 'product-card')))
             raw_html = self.driver.get_page_source()
             return raw_html
-        except:
+        except TimeoutException:
             print(f"Website not found, aborting...")
             return ''
-             
+    
+    def _click_load_more_button(self):
+        """Click the '100 weitere Produkte ansehen' button until all products are loaded"""
+        while True:
+            try:
+                # Wait for the button to be present and clickable
+                load_more_button = WebDriverWait(self.driver, 10).until(
+                    EC.element_to_be_clickable((By.XPATH, "//div[@class='view-more']/a"))
+                )
+                print("Clicking '100 weitere Produkte ansehen' button...")
+                load_more_button.click()
+                time.sleep(2)  # Wait for products to load before the next attempt
+            except TimeoutException:
+                # If the button is not found within the timeout, break the loop
+                print("No more '100 weitere Produkte ansehen' button found. All products should be loaded.")
+                break
+            except NoSuchElementException:
+                # Handle any unexpected NoSuchElementException gracefully
+                print("No more '100 weitere Produkte ansehen' button found (NoSuchElementException).")
+                break
+            except Exception as e:
+                # Log any other unexpected exceptions and exit the loop
+                print(f"Error while clicking 'load more' button: {e}")
+                break
 
     def scrape_and_parse(self):
         """Scrape and then parse the result"""
@@ -67,7 +94,6 @@ class MigrosScraper:
 
             else:
                 print(f"Skipping product: {product.get('name')} as it has no valid URL.")
-
 
     def close(self):
         """Close the Selenium driver"""

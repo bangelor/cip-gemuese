@@ -1,3 +1,4 @@
+### Produced by ChatGPT and not tested :D
 import unittest
 from unittest.mock import patch, MagicMock
 from stores.migros.migros_scraper import MigrosScraper
