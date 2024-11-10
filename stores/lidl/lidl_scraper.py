@@ -202,7 +202,8 @@ for url in urls:
             })
 
 ##################################################################################
-# 4) Create a DataFrame with all food items and save it
+
+# 4) Create a DataFrame with all food items and save it 
 # Create DataFrame with Timestamp for collecting data.
 df = pd.DataFrame(product)
 df['Subcategory'] = sub
@@ -211,6 +212,6 @@ df['Date_collecting_data'] = pd.Timestamp.now()
 # Current date for filename
 current_date = datetime.now().strftime("%Y-%m-%d")
 
-# Save the CSV file in the 'dataset' folder with date in filename
+# Save the CSV file with date in filename
 file_path = f"lidl_scraper_parser_{current_date}.csv"
 df.to_csv(file_path, index=False, sep=";")

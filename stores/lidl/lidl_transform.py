@@ -7,7 +7,6 @@ import numpy as np
 import openai
 import config
 
-
 # Combine several scraped data by finding all files that start with "lidl_scraper_parser_" and end with ".csv"
 files = glob.glob(os.path.join( 'lidl_scraper_parser_*.csv'))
 
