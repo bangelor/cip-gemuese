@@ -1,5 +1,5 @@
-# main.py
 from stores.migros.migros_scraper import MigrosScraper
+from stores.lidl.lidl_scraper_not_Oo import LidlScraper 
 from storage.azure_blob_storage import AzureBlobStorage
 from stores.aldi.ALDI_SCRAPER import AldiScraper
 import json
@@ -15,7 +15,7 @@ def scrape_migros_and_store():
 
     # Store the data in Azure Blob Storage
     azure_storage = AzureBlobStorage()
-    azure_storage.upload_data(store_name= 'migros', data=json_data)
+    azure_storage.upload_data(store_name='migros', data=json_data)
 
     print("Migros data scraped and stored in Azure Blob Storage.")
 
@@ -32,10 +32,30 @@ def scrape_aldi_and_store():
         # Store the data in Azure Blob Storage
         azure_storage = AzureBlobStorage()
         azure_storage.upload_data(store_name='aldi', data=json_data)
+
     print("Aldi data scraped and stored in Azure Blob Storage.")
 
+def scrape_lidl_and_store():
+    """Function to scrape and store Lidl data"""
+    scraper = LidlScraper()
+    base_url = "https://sortiment.lidl.ch/de/obst-gemuse#/"
+    category_urls = scraper.scrape_category_urls(base_url)
+    product_urls = scraper.scrape_product_urls(category_urls)
+    scraped_data = scraper.scrape_and_parse(product_urls)
+    scraper.close()
+
+    if scraped_data:
+        # Convert data to JSON
+        json_data = json.dumps(scraped_data, indent=4)
+
+        # Store the data in Azure Blob Storage
+        azure_storage = AzureBlobStorage()
+        azure_storage.upload_data(store_name='lidl', data=json_data)
+
+    print("Lidl data scraped and stored in Azure Blob Storage.")
 
 # Usage
 if __name__ == "__main__":
-    scrape_migros_and_store()
-    scrape_aldi_and_store()
+    #scrape_migros_and_store()
+    #scrape_aldi_and_store()
+    scrape_lidl_and_store() 

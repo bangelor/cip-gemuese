@@ -1,8 +1,12 @@
 # common/data_cleaner.py
-from config.chatGPT_config import OPENAI_KEY
 import openai
 import re
 import os
+from dotenv import load_dotenv
+
+
+load_dotenv()
+OPENAI_KEY = os.getent('OPENAI_KEY')
 
 def clean_data(text):
     """Utility function to clean scraped data"""
