@@ -4,7 +4,7 @@ from datetime import datetime
 import glob
 import os
 import numpy as np
-import openai
+import openai # openai==0.28.0
 import config
 
 # Combine several scraped data by finding all files that start with "lidl_scraper_parser_" and end with ".csv"
