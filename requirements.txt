@@ -5,3 +5,8 @@ requests
 azure.storage.blob
 webdriver_manager
 pytest
+openai
+config
+numpy
+glob
+os
