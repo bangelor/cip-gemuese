@@ -48,7 +48,7 @@ python main.py
 
 This will scrape product data from Migros and upload it to Azure Blob Storage.
 
-### Developer Onboarding - Setup
+### Developer Onboarding
 
 #### 1. **Understanding the Project**
 
