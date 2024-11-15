@@ -1,5 +1,5 @@
 
-# Store Price Scraper in Switzerland: ***An adventurous scout through fruits and vegetables***
+# Store Price Scraper in Switzerland: ***An adventurous scout through fruits and vegetables***  emo::ji("face")
 
 Mirror, mirror on the wall, who has the cheapest banana of them all? We've asked ourselves this question too. We live in the age of information, and therefore, a fair and timely comparison of groceries based on the published data on retailers' websites should be possible. 
 
@@ -9,11 +9,28 @@ We aim to close this transparency gap by a well-designed web crawling system. Th
 ## Retailers
 For data collection and analysis, we have taken the following retailers into account.
 
-- **Migros**: https://www.migros.ch/de/category/fruchte-gemuse
+- **Migros**: [Link]https://www.migros.ch/de/category/fruchte-gemuse
 - **Aldi**: https://www.aldi-now.ch/de/obst-&-gem%C3%BCse
 - **Lidl**: https://sortiment.lidl.ch/de/obst-gemuse#/
 
 ## Project Structure
+```
+
+├── stores/                           # Store-specific scrapers and parsers
+│   ├── migros/                       # Migros scraping module
+│   │   ├── migros_scraper.py         # Scraper for Migros
+│   │   ├── migros_parser.py          # Parser for Migros HTML content
+│   ├── lidl/                         # Lild scraping and transformation scripts
+│   │   ├── lidl_scraper.py           # Scraper and parser for Lidl
+│   │   ├── lidl_transform.py         # Transformation and Cleaning scraped data for analytics purpose
+│   ├── aldi/                         # Aldi scraping and transformation scripts
+│   │   ├── aldi scraper.py           # Scraper and parser for Lidl
+│   │   ├── aldi_parser_improved.py   # Transformation and Cleaning scraped data for analytics purpose
+├── README.md                         # Project documentation
+├── requirements.txt                  # Python dependencies
+
+```
+
 
 ```
 .
