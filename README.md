@@ -1,5 +1,5 @@
 
-# Store Price Scraper in Switzerland: An adventurous scout through fruits and vegetables
+# Store Price Scraper in Switzerland: ***An adventurous scout through fruits and vegetables***
 
 Mirror, mirror on the wall, who has the cheapest banana of them all? We've asked ourselves this question too. We live in the age of information, and therefore, a fair and timely comparison of groceries based on the published data on retailers' websites should be possible. 
 
