@@ -17,7 +17,7 @@ For data collection and analysis, we have taken the following retailers into acc
 ```
 ├── analysis/                         # Merged data stage for analyzing
 │   ├── merge_files_jupyer.ipynb      # Integration and processing of scraped and cleanded files of retailers
-│   ├── analysis.ipynb                 # Answering research questions
+│   ├── analysis.ipynb                # Answering research questions
 ├── stores/                           # Store-specific scrapers and parsers
 │   ├── migros/                       # Migros scraping module
 │   │   ├── migros_scraper.py         # Scraper for Migros
