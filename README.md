@@ -17,7 +17,7 @@ For data collection and analysis, we have taken the following retailers into acc
 ```
 ├── analysis/                         # Merged data stage for analyzing
 │   ├── merge_files_jupyer.ipynb      # Integration and processing of scraped and cleanded files of retailers
-│   ├── anlysis.ipynb                 # Answering research questions
+│   ├── analysis.ipynb                 # Answering research questions
 ├── stores/                           # Store-specific scrapers and parsers
 │   ├── migros/                       # Migros scraping module
 │   │   ├── migros_scraper.py         # Scraper for Migros
@@ -34,7 +34,19 @@ For data collection and analysis, we have taken the following retailers into acc
 
 ```
 ### Approach
+- Every store has its own scraper, parser and cleaner files. For setting up the Migros stores, which is structured in a modular and object-oriented manner, please refer to the README.md in the respective folder. 
+- The cleaned and transformed datasets for each retailer are integrated and refined in the file ***merged_files_jupyter.ipynb*** so that they can subsequently be analyzed using the file ***analysis.ipynb***. For data cleansing in the merged data stage, it must be ensured that the corresponding datasets are correctly stored in the respective folders.
 
+```
+├── migros ├── migros_scraper_parser_2024-11-11-Nov-19.csv  ──
+                                                              ──
+                                                                ──
+├── lidl   ├── lidl_transform.csv  ── ── ── ── ── ── ── ── ── ── ──   merge_files_jupyter.ipynb ─── ──> stores_combined_all.csv ─── ──> analysis.ipynb
+                                                               ──
+                                                            ──
+├── aldi   ├── aldi_transform.csv                         ──
+
+```
 
 ### License
 
