@@ -8,9 +8,10 @@ We aim to close this transparency gap by a well-designed web crawling system. Th
 
 ## Retailers
 For data collection and analysis, we have taken the following retailers into account.
-**[Migros]**(https://www.migros.ch/de/category/fruchte-gemuse)
-**[Aldi]**(https://www.aldi-now.ch/de/obst-&-gem%C3%BCse)
-**[Lidl]**(https://sortiment.lidl.ch/de/obst-gemuse#/)
+
+- **Migros**(https://www.migros.ch/de/category/fruchte-gemuse)
+- **[Aldi]**(https://www.aldi-now.ch/de/obst-&-gem%C3%BCse)
+- **[Lidl]**(https://sortiment.lidl.ch/de/obst-gemuse#/)
 
 ## Project Structure
 
