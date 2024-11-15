@@ -5,8 +5,10 @@ requests
 azure.storage.blob
 webdriver_manager
 pytest
-openai
-config
+openai==1.53.0
 numpy
-glob
-os
+langchain==0.3.7
+langchain-community==0.3.5
+langchain-core==0.3.15
+langchain-text-splitters==0.3.2
+
