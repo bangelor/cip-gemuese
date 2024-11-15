@@ -7,16 +7,6 @@
 
 ## Getting Started
 
-### Prerequisites
-
-Make sure you have the following installed:
-
-- **Python 3.8+**
-- **pip** (Python package manager)
-- **Chrome Browser** (if using Selenium with Chrome)
-- **ChromeDriver** (Automatically handled by the `webdriver_manager` package)
-- **Open AI** (Standardization of names/title in order to comparing different product among retailers - API Key necessary)
-
 ### Installation
 
 1. Clone the repository:
@@ -58,11 +48,11 @@ python main.py
 
 This will scrape product data from Migros and upload it to Azure Blob Storage.
 
-### Developer Onboarding
+### Developer Onboarding - Setup
 
 #### 1. **Understanding the Project**
 
-- Each store has its own folder inside `stores/` (e.g., `migros`, `aldi`, `denner`). These folders contain:
+- Store has its own folder inside `stores/`. These folders contain:
   - `scraper.py`: Scrapes the store website using Selenium.
   - `parser.py`: Parses the scraped HTML data into a structured format.
   
@@ -105,10 +95,3 @@ You can schedule the scraper to run at regular intervals:
   ```
 
 - **Using Task Scheduler (Windows)**: Use Windows Task Scheduler to trigger `main.py` at desired intervals.
-
-### Contributing
-
-1. Fork the repo and create your branch from `main`.
-2. Make your changes, ensuring that your code is well-structured and documented.
-3. Write tests for any new functionality.
-4. Submit a pull request!
