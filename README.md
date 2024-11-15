@@ -1,19 +1,19 @@
 
-# Store Price Scraper in Switzerland: ***An adventurous scout through fruits and vegetables***  emo::ji("face")
+# Store Price Scraper in Switzerland: ***An adventurous scout through fruits and vegetables***  🍌
 
 Mirror, mirror on the wall, who has the cheapest banana of them all? We've asked ourselves this question too. We live in the age of information, and therefore, a fair and timely comparison of groceries based on the published data on retailers' websites should be possible. 
 
-## Goal
+## Goal 🎯
 We aim to close this transparency gap by a well-designed web crawling system. This project aims to compare the prices, quality, and ecological aspects of fruits and vegetables sold by major retailers in Switzerland. We focus on the food category of "fruits and vegetables," as these products are often discussed controversially due to their social, ecological, and societal implications
 
-## Retailers
+## Retailers 🏬
 For data collection and analysis, we have taken the following retailers into account.
 
 - [Migros](https://www.migros.ch/de/category/fruechte-gemuese)
 - [Aldi](https://www.aldi-now.ch/de/obst-&-gem%C3%BCse)
 - [Lidl](https://sortiment.lidl.ch/de/obst-gemuese#)
 
-## Project Structure
+## Project Structure 🗂️
 ```
 
 ├── stores/                           # Store-specific scrapers and parsers
