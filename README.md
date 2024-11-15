@@ -1,7 +1,7 @@
 
-# Store Price Scraper in Switzerland: ***An adventurous scout through fruits and vegetables***  🍌
+# Store Price Scraper in Switzerland: ***An adventurous scout through fruits and vegetables***  🥑
 
-Mirror, mirror on the wall, who has the cheapest banana of them all? We've asked ourselves this question too. We live in the age of information, and therefore, a fair and timely comparison of groceries based on the published data on retailers' websites should be possible. 
+Mirror, mirror on the wall, who has the cheapest avocado of them all? We've asked ourselves this question too. We live in the age of information, and therefore, a fair and timely comparison of groceries based on the published data on retailers' websites should be possible. 
 
 ## Goal 🎯
 We aim to close this transparency gap by a well-designed web crawling system. This project aims to compare the prices, quality, and ecological aspects of fruits and vegetables sold by major retailers in Switzerland. We focus on the food category of "fruits and vegetables," as these products are often discussed controversially due to their social, ecological, and societal implications
