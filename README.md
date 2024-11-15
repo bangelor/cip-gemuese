@@ -9,24 +9,26 @@ We aim to close this transparency gap by a well-designed web crawling system. Th
 ## Retailers 🏬
 For data collection and analysis, we have taken the following retailers into account.
 
-- [Migros](https://www.migros.ch/de/category/fruechte-gemuese)
-- [Aldi](https://www.aldi-now.ch/de/obst-&-gem%C3%BCse)
-- [Lidl](https://sortiment.lidl.ch/de/obst-gemuese#)
+- [Migros](https://www.migros.ch/de)
+- [Aldi](https://www.aldi-now.ch/de)
+- [Lidl](https://sortiment.lidl.ch/de)
 
 ## Project Structure 🗂️
 ```
-
+├── analysis/                         # Merged data stage for analyzing
+│   ├── merge_files_jupyer.ipynb      # Integration and processing of scraped and cleanded files of retailers
+│   ├── anlysis.ipynb                 # Answering research questions
 ├── stores/                           # Store-specific scrapers and parsers
 │   ├── migros/                       # Migros scraping module
 │   │   ├── migros_scraper.py         # Scraper for Migros
 │   │   ├── migros_parser.py          # Parser for Migros HTML content
 │   ├── lidl/                         # Lild scraping and transformation scripts
 │   │   ├── lidl_scraper.py           # Scraper and parser for Lidl
-│   │   ├── lidl_transform.py         # Transformation and Cleaning scraped data for analytics purpose
+│   │   ├── lidl_transform.py         # Transformation and cleaning scraped data for analytics purpose
 │   ├── aldi/                         # Aldi scraping and transformation scripts
 │   │   ├── aldi scraper.py           # Scraper and parser for Aldi (with Selenium)
 │   │   ├── aldi_parser_improved.py   # Scraper and parser for Aldi (without Selenium)
-│   │   ├── csv_cleaner.py            # Transformation and Cleaning scraped data for analytics purpose
+│   │   ├── csv_cleaner.py            # Transformation and cleaning scraped data for analytics purpose
 ├── README.md                         # Project documentation
 ├── requirements.txt                  # Python dependencies
 
