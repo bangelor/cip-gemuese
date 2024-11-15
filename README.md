@@ -33,7 +33,7 @@ For data collection and analysis, we have taken the following retailers into acc
 ├── requirements.txt                  # Python dependencies
 
 ```
-### Approach
+## Approach
 - Every store has its own scraper, parser and cleaner files. For setting up the Migros stores, which is structured in a modular and object-oriented manner, please refer to the README.md in the respective folder. 
 - The cleaned and transformed datasets for each retailer are integrated and refined in the file ***merge_files_jupyter.ipynb*** so that they can subsequently be analyzed using the file ***analysis.ipynb***. For data cleansing in the merged data stage, it must be ensured that the corresponding datasets are correctly stored in the respective folders.
 
