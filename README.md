@@ -1,7 +1,16 @@
 
-# Store Price Scraper
+# Store Price Scraper in Switzerland: An adventurous scout through fruits and vegetables
 
-This project is a modular, object-oriented Python application that scrapes product prices from different stores and uploads the scraped data to Azure Blob Storage. Each store has its own scraper and parser, making it easy to extend the application to scrape from additional stores in the future.
+Mirror, mirror on the wall, who has the cheapest banana of them all? We've asked ourselves this question too. We live in the age of information, and therefore, a fair and timely comparison of groceries based on the published data on retailers' websites should be possible. 
+
+## Goal
+We aim to close this transparency gap by a well-designed web crawling system. This project aims to compare the prices, quality, and ecological aspects of fruits and vegetables sold by major retailers in Switzerland. We focus on the food category of "fruits and vegetables," as these products are often discussed controversially due to their social, ecological, and societal implications
+
+## Retailers
+For data collection and analysis, we have taken the following retailers into account.
+**[Migros]**(https://www.migros.ch/de/category/fruchte-gemuse)
+**[Aldi]**(https://www.aldi-now.ch/de/obst-&-gem%C3%BCse)
+**[Lidl]**(https://sortiment.lidl.ch/de/obst-gemuse#/)
 
 ## Project Structure
 
