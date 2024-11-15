@@ -33,13 +33,8 @@ For data collection and analysis, we have taken the following retailers into acc
 ├── requirements.txt                  # Python dependencies
 
 ```
+### Approach
 
-### Contributing
-
-1. Fork the repo and create your branch from `main`.
-2. Make your changes, ensuring that your code is well-structured and documented.
-3. Write tests for any new functionality.
-4. Submit a pull request!
 
 ### License
 
